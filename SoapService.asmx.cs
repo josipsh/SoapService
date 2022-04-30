@@ -17,6 +17,11 @@ namespace SoapService
         [WebMethod]
         public string HelloWorld()
         {
+
+            //napravi rest api koji dohvaca sve podatke iz baze u xml
+            //sortiraj u logickom smislu (Asset class i u svakom asset klasi svi prodai i kupljeni resordi)
+            //izvuci potrebne podatke iz xml-a
+            //napravi logiku
             return "Hello World";
         }
     }
